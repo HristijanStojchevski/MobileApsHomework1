@@ -28,7 +28,6 @@
 		D23ECA66266441600055DF89 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23ECA65266441600055DF89 /* ProfileViewController.swift */; };
 		D23ECA6B26647F3E0055DF89 /* JobListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23ECA6A26647F3E0055DF89 /* JobListingViewController.swift */; };
 		D23ECA7026647F760055DF89 /* HelperDashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23ECA6F26647F760055DF89 /* HelperDashViewController.swift */; };
-		D24DE55F26FB1229000614EC /* HomeworkRequirements.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D24DE55E26FB1229000614EC /* HomeworkRequirements.rtf */; };
 		D27199142683B7A200DB074E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27199132683B7A200DB074E /* LogInViewController.swift */; };
 		D2973BD22672D5D100F978A0 /* JobListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2973BD12672D5D100F978A0 /* JobListTableViewCell.swift */; };
 		D2973BE226752B8900F978A0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2973BE126752B8900F978A0 /* MapViewController.swift */; };
@@ -88,7 +87,6 @@
 		D23ECA65266441600055DF89 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		D23ECA6A26647F3E0055DF89 /* JobListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListingViewController.swift; sourceTree = "<group>"; };
 		D23ECA6F26647F760055DF89 /* HelperDashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperDashViewController.swift; sourceTree = "<group>"; };
-		D24DE55E26FB1229000614EC /* HomeworkRequirements.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = HomeworkRequirements.rtf; sourceTree = "<group>"; };
 		D27199132683B7A200DB074E /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		D2973BD12672D5D100F978A0 /* JobListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListTableViewCell.swift; sourceTree = "<group>"; };
 		D2973BE126752B8900F978A0 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -182,7 +180,6 @@
 				D2973BE126752B8900F978A0 /* MapViewController.swift */,
 				D27199132683B7A200DB074E /* LogInViewController.swift */,
 				D2D088A326A376CC0014BF9D /* Job.swift */,
-				D24DE55E26FB1229000614EC /* HomeworkRequirements.rtf */,
 			);
 			path = Homework1;
 			sourceTree = "<group>";
@@ -326,7 +323,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D24DE55F26FB1229000614EC /* HomeworkRequirements.rtf in Resources */,
 				D23EC99D26599DC00055DF89 /* LaunchScreen.storyboard in Resources */,
 				D23EC9DD2659B4720055DF89 /* GoogleService-Info.plist in Resources */,
 				D23EC99A26599DC00055DF89 /* Assets.xcassets in Resources */,
