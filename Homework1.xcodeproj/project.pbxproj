@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24E6EFD4F5D2518E8D1E2535 /* Pods_Homework1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA7C1687135F8D65458A632 /* Pods_Homework1.framework */; };
+		84526A3CB7E92D9192EED583 /* Pods_Homework1Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A41B29E5FACE1DD589058B97 /* Pods_Homework1Tests.framework */; };
 		D23EC99126599DB40055DF89 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23EC99026599DB40055DF89 /* AppDelegate.swift */; };
 		D23EC99326599DB40055DF89 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23EC99226599DB40055DF89 /* SceneDelegate.swift */; };
 		D23EC99526599DB40055DF89 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23EC99426599DB40055DF89 /* ViewController.swift */; };
@@ -15,6 +17,23 @@
 		D23EC99D26599DC00055DF89 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D23EC99B26599DC00055DF89 /* LaunchScreen.storyboard */; };
 		D23EC9A826599DC10055DF89 /* Homework1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23EC9A726599DC10055DF89 /* Homework1Tests.swift */; };
 		D23EC9B326599DC10055DF89 /* Homework1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23EC9B226599DC10055DF89 /* Homework1UITests.swift */; };
+		D23EC9DD2659B4720055DF89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D23EC9DC2659B4720055DF89 /* GoogleService-Info.plist */; };
+		D23EC9E62659D4380055DF89 /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23EC9E52659D4380055DF89 /* FirebaseService.swift */; };
+		D23ECA03265B5E0A0055DF89 /* ElderCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23ECA02265B5E0A0055DF89 /* ElderCategoriesViewController.swift */; };
+		D23ECA08265B5E330055DF89 /* HelperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23ECA07265B5E330055DF89 /* HelperViewController.swift */; };
+		D23ECA222660FD090055DF89 /* JobTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23ECA212660FD090055DF89 /* JobTableViewCell.swift */; };
+		D23ECA2F266102130055DF89 /* ElderJobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23ECA2E266102130055DF89 /* ElderJobsViewController.swift */; };
+		D23ECA3C266189C50055DF89 /* CategoryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23ECA3B266189C50055DF89 /* CategoryCollectionViewCell.swift */; };
+		D23ECA5D266269050055DF89 /* NewJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23ECA5C266269050055DF89 /* NewJobViewController.swift */; };
+		D23ECA66266441600055DF89 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23ECA65266441600055DF89 /* ProfileViewController.swift */; };
+		D23ECA6B26647F3E0055DF89 /* JobListingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23ECA6A26647F3E0055DF89 /* JobListingViewController.swift */; };
+		D23ECA7026647F760055DF89 /* HelperDashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D23ECA6F26647F760055DF89 /* HelperDashViewController.swift */; };
+		D24DE55F26FB1229000614EC /* HomeworkRequirements.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D24DE55E26FB1229000614EC /* HomeworkRequirements.rtf */; };
+		D27199142683B7A200DB074E /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D27199132683B7A200DB074E /* LogInViewController.swift */; };
+		D2973BD22672D5D100F978A0 /* JobListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2973BD12672D5D100F978A0 /* JobListTableViewCell.swift */; };
+		D2973BE226752B8900F978A0 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2973BE126752B8900F978A0 /* MapViewController.swift */; };
+		D2D088A426A376CC0014BF9D /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2D088A326A376CC0014BF9D /* Job.swift */; };
+		DD68A14F6952E8A3DFA0F636 /* Pods_Homework1_Homework1UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 453B56C82E638A22363F75D6 /* Pods_Homework1_Homework1UITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +54,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3BA7C1687135F8D65458A632 /* Pods_Homework1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Homework1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		453B56C82E638A22363F75D6 /* Pods_Homework1_Homework1UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Homework1_Homework1UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47AD2A62AC601F311C2F17DC /* Pods-Homework1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework1.debug.xcconfig"; path = "Target Support Files/Pods-Homework1/Pods-Homework1.debug.xcconfig"; sourceTree = "<group>"; };
+		70E61354DFBF35800EB5B430 /* Pods-Homework1Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework1Tests.debug.xcconfig"; path = "Target Support Files/Pods-Homework1Tests/Pods-Homework1Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E52BED73E495871F420383B /* Pods-Homework1-Homework1UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework1-Homework1UITests.release.xcconfig"; path = "Target Support Files/Pods-Homework1-Homework1UITests/Pods-Homework1-Homework1UITests.release.xcconfig"; sourceTree = "<group>"; };
+		A41B29E5FACE1DD589058B97 /* Pods_Homework1Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Homework1Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B76C864ABD2674694032BE3B /* Pods-Homework1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework1.release.xcconfig"; path = "Target Support Files/Pods-Homework1/Pods-Homework1.release.xcconfig"; sourceTree = "<group>"; };
+		BB142B0518CB824987A5884C /* Pods-Homework1Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework1Tests.release.xcconfig"; path = "Target Support Files/Pods-Homework1Tests/Pods-Homework1Tests.release.xcconfig"; sourceTree = "<group>"; };
 		D23EC98D26599DB40055DF89 /* Homework1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homework1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23EC99026599DB40055DF89 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D23EC99226599DB40055DF89 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +76,24 @@
 		D23EC9AE26599DC10055DF89 /* Homework1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Homework1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D23EC9B226599DC10055DF89 /* Homework1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homework1UITests.swift; sourceTree = "<group>"; };
 		D23EC9B426599DC10055DF89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D23EC9DC2659B4720055DF89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D23EC9E12659B51A0055DF89 /* Homework1.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Homework1.entitlements; sourceTree = "<group>"; };
+		D23EC9E52659D4380055DF89 /* FirebaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
+		D23ECA02265B5E0A0055DF89 /* ElderCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElderCategoriesViewController.swift; sourceTree = "<group>"; };
+		D23ECA07265B5E330055DF89 /* HelperViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperViewController.swift; sourceTree = "<group>"; };
+		D23ECA212660FD090055DF89 /* JobTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobTableViewCell.swift; sourceTree = "<group>"; };
+		D23ECA2E266102130055DF89 /* ElderJobsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElderJobsViewController.swift; sourceTree = "<group>"; };
+		D23ECA3B266189C50055DF89 /* CategoryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCollectionViewCell.swift; sourceTree = "<group>"; };
+		D23ECA5C266269050055DF89 /* NewJobViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewJobViewController.swift; sourceTree = "<group>"; };
+		D23ECA65266441600055DF89 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		D23ECA6A26647F3E0055DF89 /* JobListingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListingViewController.swift; sourceTree = "<group>"; };
+		D23ECA6F26647F760055DF89 /* HelperDashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperDashViewController.swift; sourceTree = "<group>"; };
+		D24DE55E26FB1229000614EC /* HomeworkRequirements.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = HomeworkRequirements.rtf; sourceTree = "<group>"; };
+		D27199132683B7A200DB074E /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		D2973BD12672D5D100F978A0 /* JobListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobListTableViewCell.swift; sourceTree = "<group>"; };
+		D2973BE126752B8900F978A0 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		D2D088A326A376CC0014BF9D /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
+		ED269E2F4AC4A07BBBA47401 /* Pods-Homework1-Homework1UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Homework1-Homework1UITests.debug.xcconfig"; path = "Target Support Files/Pods-Homework1-Homework1UITests/Pods-Homework1-Homework1UITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24E6EFD4F5D2518E8D1E2535 /* Pods_Homework1.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84526A3CB7E92D9192EED583 /* Pods_Homework1Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +117,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD68A14F6952E8A3DFA0F636 /* Pods_Homework1_Homework1UITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BBFF897FE6145DE59C470C2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BA7C1687135F8D65458A632 /* Pods_Homework1.framework */,
+				453B56C82E638A22363F75D6 /* Pods_Homework1_Homework1UITests.framework */,
+				A41B29E5FACE1DD589058B97 /* Pods_Homework1Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D23EC98426599DB40055DF89 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +141,8 @@
 				D23EC9A626599DC10055DF89 /* Homework1Tests */,
 				D23EC9B126599DC10055DF89 /* Homework1UITests */,
 				D23EC98E26599DB40055DF89 /* Products */,
+				D6E07DD3E58B9D2C17037B02 /* Pods */,
+				BBFF897FE6145DE59C470C2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +159,7 @@
 		D23EC98F26599DB40055DF89 /* Homework1 */ = {
 			isa = PBXGroup;
 			children = (
+				D23EC9E12659B51A0055DF89 /* Homework1.entitlements */,
 				D23EC99026599DB40055DF89 /* AppDelegate.swift */,
 				D23EC99226599DB40055DF89 /* SceneDelegate.swift */,
 				D23EC99426599DB40055DF89 /* ViewController.swift */,
@@ -106,6 +167,22 @@
 				D23EC99926599DC00055DF89 /* Assets.xcassets */,
 				D23EC99B26599DC00055DF89 /* LaunchScreen.storyboard */,
 				D23EC99E26599DC00055DF89 /* Info.plist */,
+				D23EC9DC2659B4720055DF89 /* GoogleService-Info.plist */,
+				D23EC9E52659D4380055DF89 /* FirebaseService.swift */,
+				D23ECA02265B5E0A0055DF89 /* ElderCategoriesViewController.swift */,
+				D23ECA07265B5E330055DF89 /* HelperViewController.swift */,
+				D23ECA212660FD090055DF89 /* JobTableViewCell.swift */,
+				D23ECA2E266102130055DF89 /* ElderJobsViewController.swift */,
+				D23ECA3B266189C50055DF89 /* CategoryCollectionViewCell.swift */,
+				D23ECA5C266269050055DF89 /* NewJobViewController.swift */,
+				D23ECA65266441600055DF89 /* ProfileViewController.swift */,
+				D23ECA6A26647F3E0055DF89 /* JobListingViewController.swift */,
+				D23ECA6F26647F760055DF89 /* HelperDashViewController.swift */,
+				D2973BD12672D5D100F978A0 /* JobListTableViewCell.swift */,
+				D2973BE126752B8900F978A0 /* MapViewController.swift */,
+				D27199132683B7A200DB074E /* LogInViewController.swift */,
+				D2D088A326A376CC0014BF9D /* Job.swift */,
+				D24DE55E26FB1229000614EC /* HomeworkRequirements.rtf */,
 			);
 			path = Homework1;
 			sourceTree = "<group>";
@@ -128,6 +205,19 @@
 			path = Homework1UITests;
 			sourceTree = "<group>";
 		};
+		D6E07DD3E58B9D2C17037B02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47AD2A62AC601F311C2F17DC /* Pods-Homework1.debug.xcconfig */,
+				B76C864ABD2674694032BE3B /* Pods-Homework1.release.xcconfig */,
+				ED269E2F4AC4A07BBBA47401 /* Pods-Homework1-Homework1UITests.debug.xcconfig */,
+				7E52BED73E495871F420383B /* Pods-Homework1-Homework1UITests.release.xcconfig */,
+				70E61354DFBF35800EB5B430 /* Pods-Homework1Tests.debug.xcconfig */,
+				BB142B0518CB824987A5884C /* Pods-Homework1Tests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D23EC9B726599DC10055DF89 /* Build configuration list for PBXNativeTarget "Homework1" */;
 			buildPhases = (
+				661A51CECA05F11D1AD72C2B /* [CP] Check Pods Manifest.lock */,
 				D23EC98926599DB40055DF89 /* Sources */,
 				D23EC98A26599DB40055DF89 /* Frameworks */,
 				D23EC98B26599DB40055DF89 /* Resources */,
+				080F8D20FBDE62ED96D04460 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D23EC9BA26599DC10055DF89 /* Build configuration list for PBXNativeTarget "Homework1Tests" */;
 			buildPhases = (
+				7744F53C414531328AE2A2E5 /* [CP] Check Pods Manifest.lock */,
 				D23EC99F26599DC10055DF89 /* Sources */,
 				D23EC9A026599DC10055DF89 /* Frameworks */,
 				D23EC9A126599DC10055DF89 /* Resources */,
@@ -170,9 +263,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D23EC9BD26599DC10055DF89 /* Build configuration list for PBXNativeTarget "Homework1UITests" */;
 			buildPhases = (
+				1F24E0772C0616CD99C6C35F /* [CP] Check Pods Manifest.lock */,
 				D23EC9AA26599DC10055DF89 /* Sources */,
 				D23EC9AB26599DC10055DF89 /* Frameworks */,
 				D23EC9AC26599DC10055DF89 /* Resources */,
+				53EEE666605727CE4818E52F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,7 +326,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D24DE55F26FB1229000614EC /* HomeworkRequirements.rtf in Resources */,
 				D23EC99D26599DC00055DF89 /* LaunchScreen.storyboard in Resources */,
+				D23EC9DD2659B4720055DF89 /* GoogleService-Info.plist in Resources */,
 				D23EC99A26599DC00055DF89 /* Assets.xcassets in Resources */,
 				D23EC99826599DB40055DF89 /* Main.storyboard in Resources */,
 			);
@@ -253,14 +350,131 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		080F8D20FBDE62ED96D04460 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Homework1/Pods-Homework1-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Homework1/Pods-Homework1-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Homework1/Pods-Homework1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1F24E0772C0616CD99C6C35F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Homework1-Homework1UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53EEE666605727CE4818E52F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Homework1-Homework1UITests/Pods-Homework1-Homework1UITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Homework1-Homework1UITests/Pods-Homework1-Homework1UITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Homework1-Homework1UITests/Pods-Homework1-Homework1UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		661A51CECA05F11D1AD72C2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Homework1-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7744F53C414531328AE2A2E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Homework1Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D23EC98926599DB40055DF89 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D23ECA7026647F760055DF89 /* HelperDashViewController.swift in Sources */,
+				D23ECA08265B5E330055DF89 /* HelperViewController.swift in Sources */,
 				D23EC99526599DB40055DF89 /* ViewController.swift in Sources */,
+				D2973BD22672D5D100F978A0 /* JobListTableViewCell.swift in Sources */,
+				D23ECA03265B5E0A0055DF89 /* ElderCategoriesViewController.swift in Sources */,
+				D23ECA5D266269050055DF89 /* NewJobViewController.swift in Sources */,
 				D23EC99126599DB40055DF89 /* AppDelegate.swift in Sources */,
+				D23ECA2F266102130055DF89 /* ElderJobsViewController.swift in Sources */,
+				D23ECA66266441600055DF89 /* ProfileViewController.swift in Sources */,
+				D23EC9E62659D4380055DF89 /* FirebaseService.swift in Sources */,
+				D23ECA3C266189C50055DF89 /* CategoryCollectionViewCell.swift in Sources */,
+				D23ECA6B26647F3E0055DF89 /* JobListingViewController.swift in Sources */,
+				D27199142683B7A200DB074E /* LogInViewController.swift in Sources */,
 				D23EC99326599DB40055DF89 /* SceneDelegate.swift in Sources */,
+				D2D088A426A376CC0014BF9D /* Job.swift in Sources */,
+				D2973BE226752B8900F978A0 /* MapViewController.swift in Sources */,
+				D23ECA222660FD090055DF89 /* JobTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,9 +647,11 @@
 		};
 		D23EC9B826599DC10055DF89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47AD2A62AC601F311C2F17DC /* Pods-Homework1.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Homework1/Homework1.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Homework1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -451,9 +667,11 @@
 		};
 		D23EC9B926599DC10055DF89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B76C864ABD2674694032BE3B /* Pods-Homework1.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Homework1/Homework1.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Homework1/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -469,6 +687,7 @@
 		};
 		D23EC9BB26599DC10055DF89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70E61354DFBF35800EB5B430 /* Pods-Homework1Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +709,7 @@
 		};
 		D23EC9BC26599DC10055DF89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB142B0518CB824987A5884C /* Pods-Homework1Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +731,7 @@
 		};
 		D23EC9BE26599DC10055DF89 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED269E2F4AC4A07BBBA47401 /* Pods-Homework1-Homework1UITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +751,7 @@
 		};
 		D23EC9BF26599DC10055DF89 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E52BED73E495871F420383B /* Pods-Homework1-Homework1UITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

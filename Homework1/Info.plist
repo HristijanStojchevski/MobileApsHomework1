@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Homework1</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -62,5 +64,13 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSCameraUsageDescription</key>
+	<string>Please provide access to camera</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Please provide access to microphone</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Usage of location will help us notify you for jobs nearby</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Usage of location will help us present the nerby job locations first</string>
 </dict>
 </plist>
